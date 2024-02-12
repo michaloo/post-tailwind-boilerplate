@@ -1,0 +1,13 @@
+{
+  "name": "post-tailwind",
+  "module": "src/index.js",
+  "dependencies": {
+    "postcss": "^8.4.35",
+    "posthtml": "^0.16.6",
+    "posthtml-extend": "^0.6.5",
+    "tailwindcss": "^3.4.1"
+  },
+  "scripts": {
+    "build": "./build.js"
+  }
+}

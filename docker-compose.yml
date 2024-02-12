@@ -1,0 +1,6 @@
+services:
+  bun:
+    image: oven/bun
+    volumes:
+      - .:$PWD
+    working_dir: $PWD
